@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527957490713",
+    "firebase_url": "https://mynewsfeed-383a5.firebaseio.com",
+    "project_id": "mynewsfeed-383a5",
+    "storage_bucket": "mynewsfeed-383a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527957490713:android:6823b075f2d8965f",
+        "android_client_info": {
+          "package_name": "com.example.half_bloodprince.mynewsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527957490713-93h6ase7qcokhrik5ja3jh1glsqmh21l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.half_bloodprince.mynewsfeed",
+            "certificate_hash": "4abccf00b4a00e293cec02852a156af0309a0300"
+          }
+        },
+        {
+          "client_id": "527957490713-3neokb26i7omar62iadvc15fup5l34jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCouKFlPQ2-8JZjoc53lUUCxAk6E2L17-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527957490713-3neokb26i7omar62iadvc15fup5l34jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
