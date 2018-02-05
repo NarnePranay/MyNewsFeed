@@ -11,21 +11,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/status"
-        android:visibility="gone"
         android:text="ajcbllmakcnlckm"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/status"
         android:id="@+id/detail"
-        android:visibility="gone"
         android:layout_margin="20dp"/>
 
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
+        android:layout_below="@id/detail"
         android:text="Sign out"
         android:id="@+id/sign_out_button"/>
 
@@ -35,6 +34,7 @@
         android:visibility="gone"
         android:layout_height="wrap_content"
         android:id="@+id/disconnect_button"/>
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -192,6 +192,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <RelativeLayout
+                    android:id="@+id/facebook_login_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true">
